@@ -1,0 +1,10 @@
+CREATE DATABASE IF NOT EXISTS Bakery;
+USE Bakery;
+CREATE TABLE Locations(
+    Branch_Number INT PRIMARY KEY AUTO_INCREMENT,
+    Address VARCHAR(100) NOT NULL,
+    City VARCHAR(50) NOT NULL,
+    State CHAR(2) NOT NULL,
+    Opening_Hours VARCHAR(100),
+    Phone_Number VARCHAR(25)
+);
